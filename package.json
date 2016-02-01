@@ -1,0 +1,23 @@
+{
+  "name": "node-microservice-template",
+  "version": "1.0.0",
+  "description": "A Basic Node JS Microservice Template",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewdex/node-microservice-template.git"
+  },
+  "keywords": [
+    "microservices",
+    "nodejs"
+  ],
+  "author": "Dilusha Gonagala",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewdex/node-microservice-template/issues"
+  },
+  "homepage": "https://github.com/andrewdex/node-microservice-template#readme"
+}
