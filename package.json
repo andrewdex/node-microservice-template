@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/andrewdex/node-microservice-template/issues"
   },
-  "homepage": "https://github.com/andrewdex/node-microservice-template#readme"
+  "homepage": "https://github.com/andrewdex/node-microservice-template#readme",
+  "devDependencies": {
+    "express": "^4.13.4"
+  }
 }
