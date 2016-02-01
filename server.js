@@ -9,10 +9,8 @@ var port  	 = process.env.PORT || 8000;
 //define the port to use
 app.use(express.static(__dirname + '/public'));
 
-//Main Route Sample
-app.get('/', function (req, res) {
-  res.send('Hello Microservice API !');
-});
-//call listen method
+//require API File
+require('./app/api.js')(app);
+
 app.listen(port);
 console.log("App listening on port " + port);
